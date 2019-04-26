@@ -10,8 +10,8 @@ class ArticlesController extends Controller
 {
 	public function index(lain $lain)
     {
-        $articles = Article::all();
-        return view('articles.index', compact('articles'));
+        $articles = Article::orderBy('id','DESC')->paginate(8);
+        return view('articles.index', ['articles'=>$articles]);
     }
     public function show($id)
     {

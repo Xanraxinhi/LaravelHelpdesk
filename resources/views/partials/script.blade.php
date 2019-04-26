@@ -35,3 +35,16 @@
     }
   }
 </script>
+<!-- <script>  
+        // Cấu hình lại toolbar, hiển thị một vài Button.
+        CKEDITOR.config.toolbar = [  ['Font','FontSize'], ['Bold','Italic']  ];
+     
+        // Cấu hình lại màu nền giao diện.
+        CKEDITOR.config.uiColor = '#9AB8F3';
+        CKEDITOR.config.resize_enabled = false;
+        CKEDITOR.config.width = '500px';
+        CKEDITOR.config.height = '70px';
+    </script> -->
+
+
+    

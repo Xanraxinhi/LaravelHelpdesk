@@ -1,7 +1,7 @@
 
-@extends ('layouts.master')
+@extends('layouts.app')
 
-@section('haed.title')
+@section('head.title')
 Tiêu đề của bài viết
 @stop
 

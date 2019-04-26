@@ -13,15 +13,17 @@ class CreateArticlesTable extends Migration
      */
     public function up()
     {
-        Schema::create('articles', function (Blueprint $table) {
-            $table->increments('id');
-            //tieu de: title
-            $table->string('title');
-            //noi dung: content
-            $table->string('content');
+        // Schema::create('articles', function (Blueprint $table) {
+        //     $table->increments('id');
+        //     //tieu de: title
+        //     $table->string('title');
+        //     //noi dung: content
+        //     $table->string('content');
+        //     //hinh anh: image
+        //     $table->string('image');
             
-            $table->timestamps();
-        });
+        //     $table->timestamps();
+        // });
     }
 
     /**

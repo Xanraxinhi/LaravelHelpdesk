@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DummyFullModelClass;
-use App\Article;
 use App\lain;
 class PagesController extends Controller
 {
